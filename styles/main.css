@@ -134,6 +134,7 @@ body .landing-page nav .navitems ul li {
   font-size: 16px;
   line-height: 20px;
   color: #6d6c6c;
+  cursor: pointer;
 }
 
 body .landing-page nav .navitems ul li:hover {
@@ -250,6 +251,7 @@ body .landing-page .hero-section .hero-text .content .cta-btn:active {
 }
 
 body .landing-page .hero-section .hero-visuals {
+  z-index: -2;
   width: 50%;
   height: 100%;
   display: -webkit-box;
